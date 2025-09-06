@@ -1,0 +1,46 @@
+body{
+  background-color: rgb(69, 83, 83);
+}
+.App{
+  border: 1px solid #696767;
+  border-radius: 15px;
+  background-color: rgb(218, 239, 240);
+  margin: 60px;
+  padding: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.hit{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+input{
+  border: 1px solid #585757;
+  border-radius: 4px;
+  margin-left: 20px;
+  }
+button{
+  border: 1px solid #585757;
+  border-radius: 6px;
+}
+.todo-list{
+  margin: 20px;
+}
+.todo-item{
+display: flex;
+justify-content: space-between;
+
+  margin-bottom: 8px;
+}
+.todo-item p{
+  color: #888;
+  text-decoration: line-through;
+  
+}
+@media  screen and(min-width:601px) {
+  input{
+    margin-left: 80px;
+    padding-left: 60px;
+  }
+  
+}
