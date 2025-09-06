@@ -1,13 +1,23 @@
 body{
   background-color: rgb(69, 83, 83);
 }
-.App{
+.App-1{
   border: 1px solid #696767;
   border-radius: 15px;
   background-color: rgb(218, 239, 240);
   margin: 60px;
   padding: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  color: rgb(69, 83, 83);
+}
+h4{
+  color: rgb(185, 177, 169);
+  display: flex;
+  justify-content: center;
 }
 .hit{
   display: flex;
